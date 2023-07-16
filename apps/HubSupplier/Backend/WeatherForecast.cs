@@ -1,4 +1,4 @@
-namespace Backend
+namespace Aseme.Apps.HubSupplier.Backend
 {
     public class WeatherForecast
     {

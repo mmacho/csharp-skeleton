@@ -1,0 +1,19 @@
+version: '3.0'
+
+services:
+  mssql:
+    container_name: aseme-chsarp_skeleton-mssql
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    user: root
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Your_password123
+      - MSSQL_SA_PASSWORD=Your_password123
+    volumes:
+      - ./database/init.sql:/init.sql
+      - ./database/aseme.sql:/aseme.sql
+      - ./database/data/data:/var/opt/mssql/data
+      - ./database/data/log:/var/opt/mssql/log
+      - ./database/data/secrets:/var/opt/mssql/secrets 

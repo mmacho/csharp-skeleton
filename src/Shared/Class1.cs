@@ -1,4 +1,4 @@
-﻿namespace Shared
+﻿namespace Aseme.Shared
 {
     public class Class1
     {
