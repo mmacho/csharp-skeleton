@@ -1,4 +1,4 @@
-namespace csharp_skeleton
+namespace Backend
 {
     public class WeatherForecast
     {
