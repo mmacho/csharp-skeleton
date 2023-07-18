@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Aseme.Shared.Domain.HttpLogs.Infrastructure.Received
 {
+    //TODO: mmacho me gusta mas consumer
     public class HttpLogWasReceivedTopicService : PubSubSubscriber, IPubSubSubscriber, IHttpLogReceivedTopicService
     {
         private const string TOPIC_NAME = HttpLogWasReceivedMessage.TOPIC_NAME;
