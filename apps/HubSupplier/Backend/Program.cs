@@ -1,25 +1,34 @@
-var builder = WebApplication.CreateBuilder(args);
+using Aseme.Apps.HubSupplier.Backend.Extensions.Configuration.Application;
+using Aseme.Apps.HubSupplier.Backend.Extensions.Configuration.Services;
+using Aseme.Apps.HubSupplier.Backend.Extensions.DependencyInjection;
+using System.Reflection;
 
-// Add services to the container.
+var webApplicationBuilder = WebApplication.CreateBuilder(args);
+var services = webApplicationBuilder.Services;
+var configuration = webApplicationBuilder.Configuration;
+var executingAssembly = Assembly.GetExecutingAssembly();
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+//TODO: mmacho debería convergir a
+services.AddApplication();
+services.AddInfrastructure(configuration, executingAssembly);
 
-var app = builder.Build();
+var app = webApplicationBuilder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
+app.UseRouting();
 app.UseHttpsRedirection();
+app.ConfigureHealthChecks();
+app.ConfigureMiddlewares();
+app.ConfigureEndpoints();
+app.ConfigureCors();
+app.ConfigureSwaggerForDevelopmentEnvironment();
 
-app.UseAuthorization();
-
-app.MapControllers();
+// HttpLogging
+//app.UseHttpLogging();
 
 app.Run();
+
+//TODO: Revisar
+// await app.RunAsync();
+
+public partial class Program
+{ }
