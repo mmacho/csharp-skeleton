@@ -31,7 +31,6 @@ namespace Aseme.Apps.HubSupplier.Backend.Middlewares
             }
         }
 
-        //TODO: REVISAR!
         private async Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
             HttpResponse response = context.Response;

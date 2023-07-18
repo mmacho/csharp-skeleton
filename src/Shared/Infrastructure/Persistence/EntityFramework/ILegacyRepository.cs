@@ -4,7 +4,6 @@ using System.Linq.Expressions;
 
 namespace Aseme.Shared.Infrastructure.Persistence.EntityFramework
 {
-    //TODO: METER ASYNC METHODS
     public interface ILegacyRepository<TEntity> where TEntity : class
     {
         TEntity FindById(long id);

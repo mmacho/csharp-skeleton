@@ -11,7 +11,6 @@ namespace Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps.Profiles
     {
         public RestoreIcpMappingProfile()
         {
-            //TODO: GENERIC!
             CreateMap<PageResult<RestoreIcp>, PagedResponse<RestoreIcpResponse>>().ConstructUsing((source, context) => PagedResponse<RestoreIcpResponse>.Success(
                 context.Mapper.Map<List<RestoreIcp>, List<RestoreIcpResponse>>(source.Data),
                 source.TotalCount,

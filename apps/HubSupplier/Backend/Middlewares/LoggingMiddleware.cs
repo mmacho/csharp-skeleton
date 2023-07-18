@@ -14,7 +14,7 @@ namespace Aseme.Apps.HubSupplier.Backend.Middlewares
 
         private readonly ILoggingService _loggingService;
 
-        //TODO: rvisar loggingService
+        //TODO: revisar loggingService
         public LoggingMiddleware(RequestDelegate next, IOptions<HttpLoggerSettings> options, ILogger<LoggingMiddleware> logger)
         {
             _next = next;

@@ -33,6 +33,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="EmailNotifications\Infrastructure\" />
+    <Folder Include="HttpLogs\Infrastructure\" />
+    <Folder Include="Notifications\Infrastructure\" />
     <Folder Include="OnlineMeters\Application\" />
     <Folder Include="Shared\Application\" />
   </ItemGroup>
