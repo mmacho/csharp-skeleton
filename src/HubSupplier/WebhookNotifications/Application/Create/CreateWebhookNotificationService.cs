@@ -1,5 +1,5 @@
 ﻿using Aseme.HubSupplier.WebhookNotifications.Domain;
-using Aseme.Shared.Domain;
+using Aseme.Shared.Domain.Exceptions;
 using System.Data.Entity.Validation;
 
 namespace Aseme.HubSupplier.WebhookNotifications.Application.Create

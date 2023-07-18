@@ -1,8 +1,8 @@
-﻿using Aseme.HubSupplier.Shared.Domain.Notification;
+﻿using Aseme.HubSupplier.Notifications.Domain;
 using Aseme.HubSupplier.WebhookNotifications.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace aseme_api.Infrastructure.Models.HubSuppliers
+namespace Aseme.HubSupplier.Shared.Infrastructure.Persistence.EntityFramework.EntityConfigurations
 {
     public static partial class WebhookNotificationExtension
     {

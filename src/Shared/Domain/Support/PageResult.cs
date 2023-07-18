@@ -1,6 +1,6 @@
 ﻿using Aseme.Shared.Infrastructure.Utils;
 
-namespace Aseme.Shared.Domain
+namespace Aseme.Shared.Domain.Support
 {
     public class PageResult<T>
     {

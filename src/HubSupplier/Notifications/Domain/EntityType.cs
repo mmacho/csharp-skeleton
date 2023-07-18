@@ -1,4 +1,4 @@
-﻿namespace Aseme.HubSupplier.Shared.Domain.Notification
+﻿namespace Aseme.HubSupplier.Notifications.Domain
 {
     public enum EntityType
     {

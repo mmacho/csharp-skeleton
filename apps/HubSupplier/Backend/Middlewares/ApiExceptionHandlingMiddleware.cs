@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain;
+﻿using Aseme.Shared.Domain.Exceptions;
 using Aseme.Shared.Infrastructure.Http.Response;
 using Aseme.Shared.Infrastructure.Http.Response.Error;
 using System.Net;

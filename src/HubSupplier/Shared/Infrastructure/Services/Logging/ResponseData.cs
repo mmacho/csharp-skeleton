@@ -1,4 +1,4 @@
-﻿namespace Aseme.Shared.Domain
+﻿namespace Aseme.HubSupplier.Shared.Infrastructure.Services.Logging
 {
     public class ResponseData
     {

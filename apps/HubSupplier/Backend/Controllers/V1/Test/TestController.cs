@@ -2,7 +2,7 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Aseme.Apps.HubSupplier.Backend.Controllers.V1
+namespace Aseme.Apps.HubSupplier.Backend.Controllers.V1.Test
 {
     [ApiVersion("1")]
     public class TestController : BaseController

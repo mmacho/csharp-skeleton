@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain;
+﻿using Aseme.Shared.Domain.Support;
 
 namespace Hsd.Users.Domain
 {

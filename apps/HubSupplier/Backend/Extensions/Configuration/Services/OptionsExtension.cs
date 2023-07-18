@@ -1,4 +1,4 @@
-﻿using Aseme.Apps.HubSupplier.Backend.Settings;
+﻿using Aseme.HubSupplier.Shared.Infrastructure.Settings;
 
 namespace Aseme.Apps.HubSupplier.Backend.Extensions.Configuration.Services
 {

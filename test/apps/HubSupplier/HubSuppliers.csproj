@@ -25,7 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\apps\HubSupplier\Backend\Backend.csproj" />
-    <ProjectReference Include="..\..\..\src\HubSupplier\HubSupplier.csproj" />
+    <ProjectReference Include="..\..\..\src\HubSupplier\HubSuppliers.csproj" />
   </ItemGroup>
 
 </Project>

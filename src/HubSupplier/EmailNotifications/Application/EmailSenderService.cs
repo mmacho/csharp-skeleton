@@ -1,6 +1,6 @@
 ﻿using Aseme.HubSupplier.EmailNotifications.Domain;
 using Aseme.HubSupplier.Notifications.Application;
-using Aseme.HubSupplier.Shared.Domain.Notification;
+using Aseme.HubSupplier.Notifications.Domain;
 using Microsoft.Extensions.Logging;
 
 namespace Aseme.HubSupplier.EmailNotifications.Application

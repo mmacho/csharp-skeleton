@@ -3,7 +3,7 @@ using Aseme.Shared.Infrastructure.Services.PageUri;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps.Models.Controller
+namespace Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps
 {
     [Route(ApiRoutes.BasePath + ApiRoutes.RestoreIcps.Endpoint)]
     [Route(ApiRoutes.BasePath + ApiRoutes.ApiVersion + ApiRoutes.RestoreIcps.Endpoint)]

@@ -1,4 +1,4 @@
-﻿namespace Aseme.Shared.Domain.HttpLogs.Infrastructure.Received
+﻿namespace Aseme.HubSupplier.Shared.Infrastructure.Startup
 {
     public interface IHttpLogReceivedTopicService
     {

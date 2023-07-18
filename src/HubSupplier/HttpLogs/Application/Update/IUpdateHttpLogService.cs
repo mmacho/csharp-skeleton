@@ -1,6 +1,6 @@
-﻿using Aseme.Shared.Domain.HttpLogs.Domain;
+﻿using Aseme.HubSupplier.HttpLogs.Domain;
 
-namespace Aseme.Shared.Domain.HttpLogs.Application.Update
+namespace Aseme.HubSupplier.HttpLogs.Application.Update
 {
     public interface IUpdateHttpLogService
     {

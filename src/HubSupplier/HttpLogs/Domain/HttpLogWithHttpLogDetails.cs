@@ -1,6 +1,6 @@
 ﻿using Aseme.Shared.Infrastructure.Persistence.Specifications.Model;
 
-namespace Aseme.Shared.Domain.HttpLogs.Domain
+namespace Aseme.HubSupplier.HttpLogs.Domain
 {
     public class HttpLogWithHttpLogDetails : Specification<HttpLog>
     {

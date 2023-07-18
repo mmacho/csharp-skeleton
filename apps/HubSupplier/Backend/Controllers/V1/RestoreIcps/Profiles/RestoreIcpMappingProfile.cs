@@ -1,7 +1,7 @@
 ﻿using Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps.Models.Request;
 using Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps.Models.Response;
 using Aseme.HubSupplier.RestoreIcps.Domain;
-using Aseme.Shared.Domain;
+using Aseme.Shared.Domain.Support;
 using Aseme.Shared.Infrastructure.Http.Response;
 using AutoMapper;
 

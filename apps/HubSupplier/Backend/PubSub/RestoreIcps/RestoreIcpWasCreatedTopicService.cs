@@ -1,18 +1,17 @@
 ﻿using Aseme.HubSupplier.EmailNotifications.Application.Create;
 using Aseme.HubSupplier.EmailNotifications.Domain;
+using Aseme.HubSupplier.Notifications.Domain;
 using Aseme.HubSupplier.RestoreIcps.Domain;
-using Aseme.HubSupplier.Shared.Domain.Notification;
-using Aseme.Shared.Domain;
-using Aseme.Shared.Domain.PubSub.Base;
+using Aseme.HubSupplier.Shared.Infrastructure.Startup;
+using Aseme.Shared.Domain.PubSub;
+using Aseme.Shared.Domain.Support;
 using Aseme.Shared.Infrastructure.PubSub.Publisher;
 using Aseme.Shared.Infrastructure.PubSub.Subscriber;
 using Aseme.Shared.Infrastructure.Utils;
 using Hsd.Users.Aplication.Search;
 using Hsd.Users.Domain;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 
-namespace Aseme.HubSupplier.RestoreIcps.Infrastructure.Created
+namespace Aseme.Apps.HubSupplier.Backend.PubSub.RestoreIcps
 {
     public class RestoreIcpWasCreatedTopicService : PubSubSubscriber, IPubSubSubscriber, IRestoreIcpWasCreatedTopicService
     {

@@ -1,5 +1,5 @@
 ﻿using Aseme.HubSupplier.EmailNotifications.Domain;
-using Aseme.Shared.Domain;
+using Aseme.Shared.Domain.Exceptions;
 
 namespace Aseme.HubSupplier.EmailNotifications.Application.Get
 {

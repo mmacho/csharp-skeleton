@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain;
+﻿using Aseme.Shared.Infrastructure.Http;
 using Microsoft.AspNetCore.WebUtilities;
 
 namespace Aseme.Shared.Infrastructure.Services.PageUri

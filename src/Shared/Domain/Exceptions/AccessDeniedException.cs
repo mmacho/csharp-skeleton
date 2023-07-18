@@ -1,4 +1,4 @@
-﻿namespace Aseme.Shared.Domain
+﻿namespace Aseme.Shared.Domain.Exceptions
 {
     public class AccessDeniedException : BaseException
     {

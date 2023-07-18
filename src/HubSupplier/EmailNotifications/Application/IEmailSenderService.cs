@@ -1,4 +1,4 @@
-﻿using Aseme.HubSupplier.Shared.Domain.Notification;
+﻿using Aseme.HubSupplier.Notifications.Domain;
 
 namespace Aseme.HubSupplier.EmailNotifications.Application
 {

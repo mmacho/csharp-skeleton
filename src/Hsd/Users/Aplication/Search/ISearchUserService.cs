@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain;
+﻿using Aseme.Shared.Domain.Support;
 using Hsd.Users.Domain;
 
 namespace Hsd.Users.Aplication.Search

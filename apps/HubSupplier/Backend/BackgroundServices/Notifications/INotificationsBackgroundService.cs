@@ -1,4 +1,4 @@
-﻿namespace Aseme.HubSupplier.Notifications.Infrastructure.BackgroundServices.Notifications
+﻿namespace Aseme.Apps.HubSupplier.Backend.BackgroundServices.Notifications
 {
     public interface INotificationsBackgroundService
     {

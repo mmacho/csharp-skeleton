@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain;
+﻿using Aseme.Shared.Infrastructure.Http;
 
 namespace Aseme.HubSupplier.WebhookNotifications.Domain
 {

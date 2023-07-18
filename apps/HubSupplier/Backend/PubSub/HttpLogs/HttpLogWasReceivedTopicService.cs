@@ -1,13 +1,12 @@
-﻿using Aseme.Shared.Domain.HttpLogs.Application.Create;
-using Aseme.Shared.Domain.HttpLogs.Domain;
-using Aseme.Shared.Domain.PubSub.Base;
+﻿using Aseme.HubSupplier.HttpLogs.Application.Create;
+using Aseme.HubSupplier.HttpLogs.Domain;
+using Aseme.HubSupplier.Shared.Infrastructure.Startup;
+using Aseme.Shared.Domain.PubSub;
 using Aseme.Shared.Infrastructure.PubSub.Publisher;
 using Aseme.Shared.Infrastructure.PubSub.Subscriber;
 using Aseme.Shared.Infrastructure.Utils;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 
-namespace Aseme.Shared.Domain.HttpLogs.Infrastructure.Received
+namespace Aseme.Apps.HubSupplier.Backend.PubSub.HttpLogs
 {
     //TODO: mmacho me gusta mas consumer
     public class HttpLogWasReceivedTopicService : PubSubSubscriber, IPubSubSubscriber, IHttpLogReceivedTopicService

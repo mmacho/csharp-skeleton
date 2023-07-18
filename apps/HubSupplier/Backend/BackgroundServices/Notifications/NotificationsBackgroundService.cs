@@ -1,15 +1,11 @@
-﻿using Aseme.Apps.HubSupplier.Backend.Settings;
-using Aseme.HubSupplier.Notifications.Application;
+﻿using Aseme.HubSupplier.Notifications.Application;
 using Aseme.HubSupplier.Notifications.Application.Search;
 using Aseme.HubSupplier.Notifications.Domain;
-using Aseme.HubSupplier.Shared.Domain.Notification;
-using Aseme.Shared.Domain;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Aseme.HubSupplier.Shared.Infrastructure.Settings;
+using Aseme.Shared.Domain.Support;
 using Microsoft.Extensions.Options;
 
-namespace Aseme.HubSupplier.Notifications.Infrastructure.BackgroundServices.Notifications
+namespace Aseme.Apps.HubSupplier.Backend.BackgroundServices.Notifications
 {
     public class NotificationsBackgroundService : BackgroundService, INotificationsBackgroundService
     {

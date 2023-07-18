@@ -1,7 +1,7 @@
-﻿using Aseme.Shared.Domain.HttpLogs.Domain;
+﻿using Aseme.HubSupplier.HttpLogs.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace aseme_api.Infrastructure.Models.HubSuppliers
+namespace Aseme.HubSupplier.Shared.Infrastructure.Persistence.EntityFramework.EntityConfigurations
 {
     public static partial class HttpLogExtension
     {

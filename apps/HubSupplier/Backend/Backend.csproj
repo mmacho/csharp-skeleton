@@ -20,6 +20,7 @@
     <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="7.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
     <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
@@ -33,7 +34,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\src\Hsc\Hsc.csproj" />
     <ProjectReference Include="..\..\..\src\Hsd\Hsd.csproj" />
-    <ProjectReference Include="..\..\..\src\HubSupplier\HubSupplier.csproj" />
+    <ProjectReference Include="..\..\..\src\HubSupplier\HubSuppliers.csproj" />
     <ProjectReference Include="..\..\..\src\Shared\Shared.csproj" />
   </ItemGroup>
 

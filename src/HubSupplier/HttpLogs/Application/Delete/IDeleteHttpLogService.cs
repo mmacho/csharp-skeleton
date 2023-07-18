@@ -1,4 +1,4 @@
-﻿namespace Aseme.Shared.Domain.HttpLogs.Application.Delete
+﻿namespace Aseme.HubSupplier.HttpLogs.Application.Delete
 {
     public interface IDeleteHttpLogService
     {

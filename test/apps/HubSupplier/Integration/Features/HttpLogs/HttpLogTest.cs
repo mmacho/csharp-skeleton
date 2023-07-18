@@ -1,5 +1,5 @@
 ﻿using Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps.Models.Request;
-using Aseme.Shared.Domain.HttpLogs.Domain;
+using Aseme.HubSupplier.HttpLogs.Domain;
 using FluentAssertions;
 using HubSupplierTest.apps.Constants;
 using HubSupplierTest.apps.Utils;

@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Aseme.Shared.Domain.PubSub.Base
+namespace Aseme.Shared.Domain.PubSub
 {
     [Serializable]
     public class PubSubMessage : IPubSubMessage

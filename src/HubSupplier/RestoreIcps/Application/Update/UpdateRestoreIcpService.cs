@@ -1,5 +1,5 @@
 ﻿using Aseme.HubSupplier.RestoreIcps.Domain;
-using Aseme.Shared.Domain;
+using Aseme.Shared.Domain.Exceptions;
 using Aseme.Shared.Infrastructure.PubSub.Publisher;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;

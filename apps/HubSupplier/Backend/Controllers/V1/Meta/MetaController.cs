@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Net.Mime;
 using System.Reflection;
 
-namespace Aseme.Apps.HubSupplier.Backend.Controllers
+namespace Aseme.Apps.HubSupplier.Backend.Controllers.V1.Meta
 {
     [ApiVersion("1")]
     [ApiController]

@@ -1,4 +1,4 @@
-﻿using Aseme.HubSupplier.Notifications.Infrastructure.BackgroundServices.Notifications;
+﻿using Aseme.Apps.HubSupplier.Backend.BackgroundServices.Notifications;
 using Aseme.HubSupplier.Shared.Infrastructure.Startup;
 
 namespace Aseme.Apps.HubSupplier.Backend.Extensions.Configuration.Services

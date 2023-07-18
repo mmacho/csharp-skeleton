@@ -1,6 +1,7 @@
-﻿using Aseme.Shared.Domain.HttpLogs.Domain;
+﻿using Aseme.HubSupplier.HttpLogs.Domain;
+using Aseme.Shared.Domain.Support;
 
-namespace Aseme.Shared.Domain.HttpLogs.Application.Search
+namespace Aseme.HubSupplier.HttpLogs.Application.Search
 {
     public class SearchHttpLogService : ISearchHttpLogService
     {

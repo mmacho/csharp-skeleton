@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
 
-namespace Aseme.Shared.Domain.PubSub.Base
+namespace Aseme.Shared.Domain.PubSub
 {
     public interface IPubSubMessage
     {

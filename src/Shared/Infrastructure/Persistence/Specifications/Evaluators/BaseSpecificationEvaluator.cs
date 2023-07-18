@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain;
+﻿using Aseme.Shared.Domain.Support;
 using Aseme.Shared.Infrastructure.Persistence.Specifications.Model;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Dynamic.Core;

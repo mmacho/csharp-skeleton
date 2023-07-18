@@ -1,5 +1,4 @@
-﻿using Aseme.HubSupplier.Shared.Domain.Notification;
-using Aseme.Shared.Infrastructure.Persistence.Specifications.Model;
+﻿using Aseme.Shared.Infrastructure.Persistence.Specifications.Model;
 
 namespace Aseme.HubSupplier.Notifications.Domain
 {

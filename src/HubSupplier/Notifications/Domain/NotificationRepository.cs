@@ -1,5 +1,4 @@
-﻿using Aseme.HubSupplier.Shared.Domain.Notification;
-using Aseme.HubSupplier.Shared.Infrastructure.Persistence.EntityFramework;
+﻿using Aseme.HubSupplier.Shared.Infrastructure.Persistence.EntityFramework;
 using Aseme.Shared.Infrastructure.Persistence.EntityFramework;
 
 namespace Aseme.HubSupplier.Notifications.Domain

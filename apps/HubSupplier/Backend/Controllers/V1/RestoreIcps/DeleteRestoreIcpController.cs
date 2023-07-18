@@ -1,5 +1,4 @@
 ﻿using Aseme.Apps.HubSupplier.Backend.Controllers.Contracts;
-using Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps.Models.Controller;
 using Aseme.HubSupplier.RestoreIcps.Application.Delete;
 using Aseme.Shared.Infrastructure.Http.Response;
 using Aseme.Shared.Infrastructure.Http.Response.Error;
@@ -9,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Net;
 
-namespace Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps.Operations
+namespace Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps
 {
     [ControllerName(ApiRoutes.RestoreIcps.Endpoint)]
     public class DeleteRestoreIcpController : BaseV1RestoreIcpController

@@ -1,5 +1,4 @@
-﻿
-using Aseme.Shared.Domain;
+﻿using Aseme.Shared.Domain.Support;
 using Hsc.UsersRoles.Domain;
 
 namespace Hsc.Logins.Domain

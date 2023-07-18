@@ -1,4 +1,4 @@
-﻿namespace Aseme.Shared.Domain
+﻿namespace Aseme.Shared.Domain.Exceptions
 {
     //TODO: i18n
     public static class ErrorCode

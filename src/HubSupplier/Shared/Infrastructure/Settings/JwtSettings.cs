@@ -1,4 +1,4 @@
-﻿namespace Aseme.Apps.HubSupplier.Backend.Settings
+﻿namespace Aseme.HubSupplier.Shared.Infrastructure.Settings
 {
     public class JwtSettings
     {

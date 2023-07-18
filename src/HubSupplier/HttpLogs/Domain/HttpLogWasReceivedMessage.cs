@@ -1,6 +1,6 @@
-﻿using Aseme.Shared.Domain.PubSub.Base;
+﻿using Aseme.Shared.Domain.PubSub;
 
-namespace Aseme.Shared.Domain.HttpLogs.Domain
+namespace Aseme.HubSupplier.HttpLogs.Domain
 {
     public class HttpLogWasReceivedMessage : PubSubMessage
     {

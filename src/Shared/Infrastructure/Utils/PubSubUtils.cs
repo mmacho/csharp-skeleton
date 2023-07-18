@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain.PubSub.Base;
+﻿using Aseme.Shared.Domain.PubSub;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 

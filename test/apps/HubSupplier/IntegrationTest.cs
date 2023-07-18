@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain.HttpLogs.Application.Get;
+﻿using Aseme.HubSupplier.HttpLogs.Application.Get;
 using Hsc.Functionalities.Domain;
 using Hsc.Logins.Domain;
 using Hsc.Roles.Domain;

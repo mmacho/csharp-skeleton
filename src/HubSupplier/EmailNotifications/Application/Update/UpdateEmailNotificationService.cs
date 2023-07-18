@@ -1,6 +1,6 @@
 ﻿using Aseme.HubSupplier.EmailNotifications.Domain;
 using Aseme.HubSupplier.RestoreIcps.Domain;
-using Aseme.Shared.Domain;
+using Aseme.Shared.Domain.Exceptions;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using System.Data.Entity.Validation;

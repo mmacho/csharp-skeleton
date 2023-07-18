@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Aseme.Shared.Domain
+namespace Aseme.Shared.Domain.Support
 {
     public abstract class BaseEntity
     {

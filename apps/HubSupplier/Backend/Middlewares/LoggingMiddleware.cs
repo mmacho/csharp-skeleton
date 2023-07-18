@@ -1,8 +1,8 @@
-﻿using Aseme.Apps.HubSupplier.Backend.Settings;
-using Aseme.Apps.HubSupplier.Backend.Utils;
-using Aseme.Shared.Domain.HttpLogs.Domain;
+﻿using Aseme.Apps.HubSupplier.Backend.Utils;
+using Aseme.HubSupplier.HttpLogs.Domain;
+using Aseme.HubSupplier.Shared.Infrastructure.Services.Logging;
+using Aseme.HubSupplier.Shared.Infrastructure.Settings;
 using Aseme.Shared.Infrastructure.PubSub.Publisher;
-using Aseme.Shared.Infrastructure.Services.Logging;
 using Microsoft.Extensions.Options;
 
 namespace Aseme.Apps.HubSupplier.Backend.Middlewares

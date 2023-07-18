@@ -1,7 +1,7 @@
-﻿using Aseme.Shared.Domain.HttpLogs.Domain;
+﻿using Aseme.HubSupplier.HttpLogs.Domain;
 using Microsoft.AspNetCore.Http;
 
-namespace Aseme.Shared.Infrastructure.Services.Logging
+namespace Aseme.HubSupplier.Shared.Infrastructure.Services.Logging
 {
     public interface ILoggingService
     {

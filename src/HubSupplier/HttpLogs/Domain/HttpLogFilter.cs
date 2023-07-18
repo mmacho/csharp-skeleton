@@ -1,4 +1,6 @@
-﻿namespace Aseme.Shared.Domain.HttpLogs.Domain
+﻿using Aseme.Shared.Infrastructure.Http;
+
+namespace Aseme.HubSupplier.HttpLogs.Domain
 {
     public class HttpLogFilter : PaginateFilter
     {

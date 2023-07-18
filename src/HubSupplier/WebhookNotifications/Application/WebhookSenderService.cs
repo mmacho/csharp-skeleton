@@ -1,5 +1,5 @@
 ﻿using Aseme.HubSupplier.Notifications.Application;
-using Aseme.HubSupplier.Shared.Domain.Notification;
+using Aseme.HubSupplier.Notifications.Domain;
 using Aseme.HubSupplier.WebhookNotifications.Domain;
 using Microsoft.Extensions.Logging;
 

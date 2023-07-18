@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain.PubSub.Base;
+﻿using Aseme.Shared.Domain.PubSub;
 using Aseme.Shared.Infrastructure.PubSub.Subscriber;
 
 namespace Aseme.Shared.Infrastructure.PubSub.Publisher

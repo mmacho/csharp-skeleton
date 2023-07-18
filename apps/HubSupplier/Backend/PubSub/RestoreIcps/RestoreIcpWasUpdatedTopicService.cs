@@ -1,16 +1,14 @@
 ﻿using Aseme.HubSupplier.RestoreIcps.Domain;
-using Aseme.HubSupplier.RestoreIcps.Infrastructure.Created;
 using Aseme.HubSupplier.Shared.Domain.Operation;
+using Aseme.HubSupplier.Shared.Infrastructure.Startup;
 using Aseme.HubSupplier.WebhookNotifications.Application.Create;
 using Aseme.HubSupplier.WebhookNotifications.Domain;
-using Aseme.Shared.Domain.PubSub.Base;
+using Aseme.Shared.Domain.PubSub;
 using Aseme.Shared.Infrastructure.PubSub.Publisher;
 using Aseme.Shared.Infrastructure.PubSub.Subscriber;
 using Aseme.Shared.Infrastructure.Utils;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 
-namespace Aseme.HubSupplier.RestoreIcps.Infrastructure.Updated
+namespace Aseme.Apps.HubSupplier.Backend.PubSub.RestoreIcps
 {
     public class RestoreIcpWasUpdatedTopicService : PubSubSubscriber, IPubSubSubscriber, IRestoreIcpWasUpdatedTopicService
     {

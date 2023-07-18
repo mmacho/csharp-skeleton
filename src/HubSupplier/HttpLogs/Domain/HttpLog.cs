@@ -1,4 +1,6 @@
-﻿namespace Aseme.Shared.Domain.HttpLogs.Domain
+﻿using Aseme.Shared.Domain.Support;
+
+namespace Aseme.HubSupplier.HttpLogs.Domain
 {
     public class HttpLog : LegacyEntity
     {

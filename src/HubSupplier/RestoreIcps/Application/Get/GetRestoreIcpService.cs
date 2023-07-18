@@ -1,5 +1,5 @@
 ﻿using Aseme.HubSupplier.RestoreIcps.Domain;
-using Aseme.Shared.Domain;
+using Aseme.Shared.Domain.Exceptions;
 
 namespace Aseme.HubSupplier.RestoreIcps.Application.Get
 {

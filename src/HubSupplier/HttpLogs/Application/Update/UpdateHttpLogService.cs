@@ -1,9 +1,10 @@
-﻿using Aseme.Shared.Domain.HttpLogs.Domain;
+﻿using Aseme.HubSupplier.HttpLogs.Domain;
+using Aseme.Shared.Domain.Exceptions;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using System.Data.Entity.Validation;
 
-namespace Aseme.Shared.Domain.HttpLogs.Application.Update
+namespace Aseme.HubSupplier.HttpLogs.Application.Update
 {
     public class UpdateHttpLogService : IUpdateHttpLogService
     {

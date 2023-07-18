@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain;
+﻿using Aseme.Shared.Domain.Support;
 using Aseme.Shared.Infrastructure.Persistence.Specifications.Model;
 using System.Linq.Expressions;
 

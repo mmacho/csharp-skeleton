@@ -1,5 +1,4 @@
-﻿using Aseme.Shared.Domain;
-using Aseme.Shared.Domain.HttpLogs.Domain;
+﻿using Aseme.HubSupplier.HttpLogs.Domain;
 using Aseme.Shared.Infrastructure.Utils;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
@@ -7,7 +6,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Diagnostics;
 
-namespace Aseme.Shared.Infrastructure.Services.Logging
+namespace Aseme.HubSupplier.Shared.Infrastructure.Services.Logging
 {
     public class LoggingService : ILoggingService
     {

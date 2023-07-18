@@ -1,4 +1,4 @@
-﻿namespace Aseme.HubSupplier.RestoreIcps.Infrastructure.Created
+﻿namespace Aseme.HubSupplier.Shared.Infrastructure.Startup
 {
     public interface IRestoreIcpWasCreatedTopicService
     {

@@ -1,6 +1,6 @@
-﻿using Aseme.Shared.Domain.HttpLogs.Domain;
+﻿using Aseme.HubSupplier.HttpLogs.Domain;
 
-namespace Aseme.Shared.Domain.HttpLogs.Application.Get
+namespace Aseme.HubSupplier.HttpLogs.Application.Get
 {
     public interface IGetHttpLogService
     {

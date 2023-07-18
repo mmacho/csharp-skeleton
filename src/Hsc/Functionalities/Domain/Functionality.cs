@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain;
+﻿using Aseme.Shared.Domain.Support;
 using Hsc.RolesFunctionalities.Domain;
 
 namespace Hsc.Functionalities.Domain

@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity.Validation;
 
-namespace Aseme.Shared.Domain
+namespace Aseme.Shared.Domain.Exceptions
 {
     public class EntityValidationException : Exception
     {

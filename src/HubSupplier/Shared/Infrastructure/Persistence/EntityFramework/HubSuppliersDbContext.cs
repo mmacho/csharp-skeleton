@@ -1,13 +1,12 @@
 ﻿using Aseme.HubSupplier.EmailNotifications.Domain;
+using Aseme.HubSupplier.HttpLogs.Domain;
+using Aseme.HubSupplier.Notifications.Domain;
 using Aseme.HubSupplier.OnlineMeters.Domain;
 using Aseme.HubSupplier.RestoreIcps.Domain;
-using Aseme.HubSupplier.Shared.Domain.Notification;
 using Aseme.HubSupplier.Shared.Domain.Operation;
 using Aseme.HubSupplier.Shared.Infrastructure.Persistence.EntityFramework.EntityConfigurations;
 using Aseme.HubSupplier.Shared.Infrastructure.Providers.Claims;
-using Aseme.Shared.Domain;
-using Aseme.Shared.Domain.HttpLogs.Domain;
-using aseme_api.Infrastructure.Models.HubSuppliers;
+using Aseme.Shared.Domain.Support;
 using Hsc.Logins.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;

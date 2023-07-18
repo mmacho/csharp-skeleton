@@ -1,5 +1,4 @@
 ﻿using Aseme.Apps.HubSupplier.Backend.Controllers.Contracts;
-using Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps.Models.Controller;
 using Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps.Models.Request;
 using Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps.Models.Response;
 using Aseme.HubSupplier.RestoreIcps.Application.Update;
@@ -12,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Net;
 
-namespace Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps.Operations
+namespace Aseme.Apps.HubSupplier.Backend.Controllers.V1.RestoreIcps
 {
     [ControllerName(ApiRoutes.RestoreIcps.Endpoint)]
     public class UpdateRestoreIcpController : BaseV1RestoreIcpController

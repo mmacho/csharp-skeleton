@@ -1,7 +1,7 @@
-﻿using Aseme.Shared.Domain;
+﻿using Aseme.Shared.Domain.Support;
 using Newtonsoft.Json;
 
-namespace Aseme.HubSupplier.Shared.Domain.Notification
+namespace Aseme.HubSupplier.Notifications.Domain
 {
     public class BaseNotification : BaseEntity
     {

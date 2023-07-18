@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain;
+﻿using Aseme.Shared.Domain.Exceptions;
 using Aseme.Shared.Infrastructure.Persistence.EntityFramework;
 using Hsc.Shared.Infrastructure.Persistence.EntityFramework;
 using Microsoft.EntityFrameworkCore;

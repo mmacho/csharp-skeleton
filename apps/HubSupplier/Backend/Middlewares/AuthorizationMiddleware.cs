@@ -1,8 +1,8 @@
-using Aseme.Apps.HubSupplier.Backend.Settings;
 using Aseme.Apps.HubSupplier.Backend.Utils;
 using Aseme.HubSupplier.Shared.Infrastructure.Constants;
 using Aseme.HubSupplier.Shared.Infrastructure.Persistence.EntityFramework;
-using Aseme.Shared.Domain;
+using Aseme.HubSupplier.Shared.Infrastructure.Settings;
+using Aseme.Shared.Domain.Exceptions;
 using Hsc.Logins.Aplication.Search;
 using Hsc.Logins.Domain;
 using Hsc.Roles.Domain;

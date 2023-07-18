@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.33801.228
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{0476566F-B83A-49FB-917D-8EDCDFF8FE07}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HubSupplier", "HubSupplier", "{690E9CE3-F8D0-4D47-8CB0-27B56EF3AE57}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HubSuppliers", "HubSuppliers", "{690E9CE3-F8D0-4D47-8CB0-27B56EF3AE57}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{1DD8E42F-5563-4B85-B345-DB8D5B8AB878}"
 EndProject
@@ -17,9 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B1CA2F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "src\Shared\Shared.csproj", "{F0BE13A8-06E2-4798-9DCA-C8834E2F48F9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HubSupplier", "HubSupplier", "{8208ADF4-E080-4E72-B036-64CC30829EB1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HubSuppliers", "HubSuppliers", "{8208ADF4-E080-4E72-B036-64CC30829EB1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubSupplier", "src\HubSupplier\HubSupplier.csproj", "{DBEA2F3D-86BA-4787-95A0-59F27830C89F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubSuppliers", "src\HubSupplier\HubSuppliers.csproj", "{DBEA2F3D-86BA-4787-95A0-59F27830C89F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{48F08DCE-6D57-4DFB-8A7C-9FEFF564DD34}"
 EndProject
@@ -27,7 +27,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{A662D1D4-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E4C1C98F-C962-4D34-8158-AC06A8336EAC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubSupplier", "test\apps\HubSupplier\HubSupplier.csproj", "{9A721C9C-8707-47DF-9924-28DF692E0D31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubSuppliers", "test\apps\HubSupplier\HubSuppliers.csproj", "{9A721C9C-8707-47DF-9924-28DF692E0D31}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "test\src\Shared\Shared.csproj", "{06DA2BD1-89F8-4863-86B4-8ABF238FDCCA}"
 EndProject
@@ -35,7 +35,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubSupplier", "test\src\Hub
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{C317A889-0D89-4D66-BB78-321D8FEF0B68}"
 	ProjectSection(SolutionItems) = preProject
-		database\hubsupplier.sql = database\hubsupplier.sql
+		database\hubsuppliers.sql = database\hubsuppliers.sql
 		database\init.sql = database\init.sql
 	EndProjectSection
 EndProject

@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain;
+﻿using Aseme.Shared.Domain.Exceptions;
 using Hsc.Logins.Domain;
 
 namespace Hsc.Logins.Aplication.Get

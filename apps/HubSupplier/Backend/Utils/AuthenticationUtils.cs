@@ -1,5 +1,5 @@
-﻿using Aseme.Apps.HubSupplier.Backend.Settings;
-using Aseme.HubSupplier.Shared.Infrastructure.Constants;
+﻿using Aseme.HubSupplier.Shared.Infrastructure.Constants;
+using Aseme.HubSupplier.Shared.Infrastructure.Settings;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;

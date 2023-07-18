@@ -1,7 +1,7 @@
-﻿using Aseme.Apps.HubSupplier.Backend.Settings;
-using Aseme.Apps.HubSupplier.Backend.Utils;
+﻿using Aseme.Apps.HubSupplier.Backend.Utils;
 using Aseme.HubSupplier.Shared.Infrastructure.Constants;
-using Aseme.Shared.Domain;
+using Aseme.HubSupplier.Shared.Infrastructure.Settings;
+using Aseme.Shared.Domain.Exceptions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 

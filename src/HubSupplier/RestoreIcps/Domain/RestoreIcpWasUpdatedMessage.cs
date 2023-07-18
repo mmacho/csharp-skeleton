@@ -1,4 +1,4 @@
-﻿using Aseme.Shared.Domain.PubSub.Base;
+﻿using Aseme.Shared.Domain.PubSub;
 
 namespace Aseme.HubSupplier.RestoreIcps.Domain
 {

@@ -1,4 +1,4 @@
-﻿namespace Aseme.Shared.Domain
+﻿namespace Aseme.Shared.Infrastructure.Http
 {
     public class PaginateFilter
     {

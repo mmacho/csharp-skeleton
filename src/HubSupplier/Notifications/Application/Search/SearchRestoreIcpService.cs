@@ -1,6 +1,5 @@
 ﻿using Aseme.HubSupplier.Notifications.Domain;
-using Aseme.HubSupplier.Shared.Domain.Notification;
-using Aseme.Shared.Domain;
+using Aseme.Shared.Domain.Support;
 
 namespace Aseme.HubSupplier.Notifications.Application.Search
 {

@@ -1,4 +1,4 @@
-﻿namespace Aseme.Shared.Domain
+﻿namespace Aseme.Shared.Domain.Support
 {
     // IOwnedBy
     public abstract class AuditableEntity : BaseEntity, IAuditableEntity

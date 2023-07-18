@@ -1,4 +1,5 @@
-﻿using Aseme.Shared.Domain;
+﻿using Aseme.Shared.Domain.Support;
+using Aseme.Shared.Infrastructure.Http;
 using Aseme.Shared.Infrastructure.Http.Response;
 using Aseme.Shared.Infrastructure.Services.PageUri;
 using AutoMapper;

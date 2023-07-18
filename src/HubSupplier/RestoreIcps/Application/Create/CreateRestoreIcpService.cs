@@ -1,6 +1,6 @@
 ﻿using Aseme.HubSupplier.RestoreIcps.Domain;
 using Aseme.HubSupplier.Shared.Domain.Operation;
-using Aseme.Shared.Domain;
+using Aseme.Shared.Domain.Exceptions;
 using Aseme.Shared.Infrastructure.PubSub.Publisher;
 using Microsoft.Extensions.DependencyInjection;
 using System.Data.Entity.Validation;
