@@ -48,7 +48,7 @@ namespace Aseme.HubSupplier.RestoreIcps.Application.Update
 
         private async Task<RestoreIcp> FindRestoreIcpIfExists(long id)
         {
-            RestoreIcp entity = await _repository.FindAsync(new RestoreIcpWithRestoreIcpDetails(id));
+            RestoreIcp entity = await _repository.Find(new RestoreIcpWithRestoreIcpDetails(id));
             if (null == entity) { throw new NotFoundException(ErrorCode.NOT_FOUND, RestoreIcp.TableName, id); }
             return entity;
         }

@@ -1,4 +1,5 @@
-﻿using Aseme.HubSupplier.Notifications.Application;
+﻿using Aseme.Apps.HubSupplier.Backend.Settings;
+using Aseme.HubSupplier.Notifications.Application;
 using Aseme.HubSupplier.Notifications.Application.Search;
 using Aseme.HubSupplier.Notifications.Domain;
 using Aseme.HubSupplier.Shared.Domain.Notification;
@@ -13,12 +14,12 @@ namespace Aseme.HubSupplier.Notifications.Infrastructure.BackgroundServices.Noti
     public class NotificationsBackgroundService : BackgroundService, INotificationsBackgroundService
     {
         private readonly ILogger<NotificationsBackgroundService> _logger;
-        private readonly INotificationSettings _options;
+        private readonly NotificationSettings _options;
         private readonly IServiceProvider _serviceProvider;
 
         private readonly Dictionary<Type, INotificationSender> _notificationTypes = new();
 
-        public NotificationsBackgroundService(ILogger<NotificationsBackgroundService> logger, IOptions<INotificationSettings> options, IServiceProvider serviceProvider)
+        public NotificationsBackgroundService(ILogger<NotificationsBackgroundService> logger, IOptions<NotificationSettings> options, IServiceProvider serviceProvider)
 
         {
             _logger = logger;

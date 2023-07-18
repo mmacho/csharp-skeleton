@@ -1,9 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Net.Mime;
 using System.Reflection;
 
 namespace Aseme.Apps.HubSupplier.Backend.Controllers
 {
+    [ApiVersion("1")]
+    [ApiController]
+    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [Consumes(MediaTypeNames.Application.Json)]
+    [Produces(MediaTypeNames.Application.Json)]
     public class MetaController : ControllerBase
     {
         [HttpGet("/info")]

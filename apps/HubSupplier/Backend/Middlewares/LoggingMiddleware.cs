@@ -14,11 +14,12 @@ namespace Aseme.Apps.HubSupplier.Backend.Middlewares
 
         private readonly ILoggingService _loggingService;
 
-        public LoggingMiddleware(RequestDelegate next, IOptions<HttpLoggerSettings> options, ILogger<LoggingMiddleware> logger, ILoggingService loggingService)
+        //TODO: rvisar loggingService
+        public LoggingMiddleware(RequestDelegate next, IOptions<HttpLoggerSettings> options, ILogger<LoggingMiddleware> logger)
         {
             _next = next;
             _options = options.Value;
-            _loggingService = loggingService;
+            //_loggingService = loggingService;
         }
 
         public async Task Invoke(HttpContext httpContext, IPubSubPublisher pubSubPublisher)

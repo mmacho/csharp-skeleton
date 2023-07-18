@@ -1,7 +1,7 @@
 # C# Hexagonal Bootstrap (base / project skeleton)
 
 # Create folders structure:
-1. Crearte folders into solution
+1. Create folders into solution
 2. Add new project with the same folder from step 1.
     - app: ASP.NET Core Web Api
     - src: Biblioteca de clases

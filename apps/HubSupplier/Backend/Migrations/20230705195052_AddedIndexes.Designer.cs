@@ -2,10 +2,8 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using aseme_api.Infrastructure.Contexts;
+using Aseme.HubSupplier.Shared.Infrastructure.Persistence.EntityFramework;
 
 #nullable disable
 

@@ -1,10 +1,12 @@
-﻿using Aseme.Apps.HubSupplier.Backend.Extensions.Configuration.Services;
+﻿using Aseme.Apps.HubSupplier.Backend.Extensions.Configuration.Application.Builder;
+using Aseme.Apps.HubSupplier.Backend.Extensions.Configuration.Services;
+using System.Reflection;
 
 namespace Aseme.Apps.HubSupplier.Backend.Extensions.DependencyInjection
 {
     public static class Infrastructure
     {
-        internal static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
+        internal static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration, WebApplicationBuilder webApplicationBuilder, Assembly executingAssembly)
         {
             //TODO: mmacho meter todo lo que corresponde a application
 

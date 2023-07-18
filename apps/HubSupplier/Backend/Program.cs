@@ -3,14 +3,13 @@ using Aseme.Apps.HubSupplier.Backend.Extensions.Configuration.Services;
 using Aseme.Apps.HubSupplier.Backend.Extensions.DependencyInjection;
 using System.Reflection;
 
-var webApplicationBuilder = WebApplication.CreateBuilder(args);
-var services = webApplicationBuilder.Services;
-var configuration = webApplicationBuilder.Configuration;
-var executingAssembly = Assembly.GetExecutingAssembly();
+WebApplicationBuilder webApplicationBuilder = WebApplication.CreateBuilder(args);
+IServiceCollection services = webApplicationBuilder.Services;
+IConfiguration configuration = webApplicationBuilder.Configuration;
+Assembly executingAssembly = Assembly.GetExecutingAssembly();
 
-//TODO: mmacho debería convergir a
 services.AddApplication();
-services.AddInfrastructure(configuration, executingAssembly);
+services.AddInfrastructure(configuration, webApplicationBuilder, executingAssembly);
 
 var app = webApplicationBuilder.Build();
 

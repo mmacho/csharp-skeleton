@@ -7,6 +7,7 @@ using Aseme.HubSupplier.Shared.Infrastructure.Persistence.EntityFramework.Entity
 using Aseme.HubSupplier.Shared.Infrastructure.Providers.Claims;
 using Aseme.Shared.Domain;
 using Aseme.Shared.Domain.HttpLogs.Domain;
+using aseme_api.Infrastructure.Models.HubSuppliers;
 using Hsc.Logins.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
@@ -92,31 +93,25 @@ namespace Aseme.HubSupplier.Shared.Infrastructure.Persistence.EntityFramework
 
             // Core
             modelBuilder.BuildBaseOperation();
-            //modelBuilder.BuildBaseNotification();
+            modelBuilder.BuildBaseNotification();
 
             // App
-            //modelBuilder.BuildHttpLog();
-            //modelBuilder.BuildEmailNotification();
-            //modelBuilder.BuildWebhookNotification();
+            modelBuilder.BuildHttpLog();
+            modelBuilder.BuildEmailNotification();
+            modelBuilder.BuildWebhookNotification();
 
             modelBuilder.BuildRestoreIcp();
             modelBuilder.BuildRestoreIcpDetails();
-            //modelBuilder.BuildOnlineMeter();
-            //modelBuilder.BuildOnlineMeterDetails();
+            modelBuilder.BuildOnlineMeter();
+            modelBuilder.BuildOnlineMeterDetails();
 
             AddQueryFilters(modelBuilder);
 
-            // Native authentication
-            //ClaimsProvider claimsProvider = new(_httpContextAccessor);
-
-            //string? userId = claimsProvider.UserId;
-            //string? distributorId = claimsProvider.DistributorId;
-
             // Testing
-            //if (Database.IsInMemory())
-            //{
-            //modelBuilder.AddValueGenerator();
-            //}
+            if (Database.IsInMemory())
+            {
+                modelBuilder.AddValueGenerator();
+            }
         }
     }
 }

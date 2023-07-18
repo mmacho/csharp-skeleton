@@ -2,7 +2,7 @@
 using Aseme.Shared.Infrastructure.Http.Response;
 using System.ComponentModel.DataAnnotations;
 
-namespace Aseme.Apps.HubSupplier.Backend.Models.V1.RestoreIcp
+namespace Aseme.Apps.HubSupplier.Backend.Domain.V1.RestoreIcp
 {
     public class RestoreIcpResponse : AbstractBaseResponse
     {

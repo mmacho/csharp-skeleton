@@ -10,6 +10,7 @@ using Aseme.HubSupplier.RestoreIcps.Application.Get;
 using Aseme.HubSupplier.RestoreIcps.Application.Search;
 using Aseme.HubSupplier.RestoreIcps.Application.Update;
 using Aseme.HubSupplier.RestoreIcps.Domain;
+using Aseme.HubSupplier.RestoreIcps.Infrastructure;
 using Aseme.HubSupplier.Shared.Infrastructure.Providers.Claims;
 using Aseme.HubSupplier.WebhookNotifications.Application;
 using Aseme.HubSupplier.WebhookNotifications.Application.Create;
@@ -17,6 +18,7 @@ using Aseme.HubSupplier.WebhookNotifications.Domain;
 using Aseme.Shared.Domain.HttpLogs.Application.Create;
 using Aseme.Shared.Domain.HttpLogs.Application.Get;
 using Aseme.Shared.Domain.HttpLogs.Domain;
+using Aseme.Shared.Infrastructure.Services.Logging;
 using Hsc.Logins.Aplication.Search;
 using Hsc.Logins.Domain;
 using Hsd.Users.Aplication.Search;
@@ -26,7 +28,8 @@ namespace Aseme.Apps.HubSupplier.Backend.Extensions.Configuration.Services
 {
     public static class ScopedsExtension
     {
-        //TODO: los repositories de base de datos son infra. Los service son appplication
+        //TODO: los repositories de base de datos son infra.
+        //Los service son appplication
         public static IServiceCollection ConfigureAppScopeds(this IServiceCollection services)
         {
             // HTTP Context
@@ -34,6 +37,7 @@ namespace Aseme.Apps.HubSupplier.Backend.Extensions.Configuration.Services
             services.AddScoped<IClaimsProvider, ClaimsProvider>();
 
             // Logging
+            services.AddScoped<ILoggingService, LoggingService>();
             services.AddScoped<IHttpLogRepository, HttpLogRepository>();
             services.AddScoped<IGetHttpLogService, GetHttpLogService>();
             services.AddScoped<ICreateHttpLogService, CreateHttpLogService>();
@@ -60,7 +64,7 @@ namespace Aseme.Apps.HubSupplier.Backend.Extensions.Configuration.Services
 
             // Feature
             // Restore ICP
-            services.AddScoped<IRestoreIcpRepository, RestoreIcpRepository>();
+            services.AddScoped<IRestoreIcpRepository, MsSqlRestoreIcpRepository>();
             services.AddScoped<ISearchRestoreIcpService, SearchRestoreIcpService>();
             services.AddScoped<IGetRestoreIcpService, GetRestoreIcpService>();
             services.AddScoped<ICreateRestoreIcpService, CreateRestoreIcpService>();

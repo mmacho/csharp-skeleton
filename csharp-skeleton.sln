@@ -42,6 +42,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A70A04B6-AFDC-4292-98F8-05019DAC9658}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
+		..\..\..\Desktop\haxagonal.png = ..\..\..\Desktop\haxagonal.png
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -49,9 +50,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hsc", "Hsc", "{C9269FC6-0C4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hsd", "Hsd", "{0195C398-15EC-4BD3-BC67-3BDCC3DB871C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hsc", "src\Hsc\Hsc.csproj", "{3E7B1460-D770-49FD-93C5-8AE09C6E039D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hsc", "src\Hsc\Hsc.csproj", "{3E7B1460-D770-49FD-93C5-8AE09C6E039D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hsd", "src\Hsd\Hsd.csproj", "{9D0C7E01-F4E5-439E-AB37-700F56367A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hsd", "src\Hsd\Hsd.csproj", "{9D0C7E01-F4E5-439E-AB37-700F56367A00}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{2B8A8EE3-0ACE-447D-B6E8-C38BC8CDDA94}"
 EndProject
