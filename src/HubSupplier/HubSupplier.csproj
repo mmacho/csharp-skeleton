@@ -37,7 +37,9 @@
     <Folder Include="HttpLogs\Infrastructure\" />
     <Folder Include="Notifications\Infrastructure\" />
     <Folder Include="OnlineMeters\Application\" />
+    <Folder Include="OnlineMeters\Infrastructure\" />
     <Folder Include="Shared\Application\" />
+    <Folder Include="WebhookNotifications\Infrastructure\" />
   </ItemGroup>
 
 </Project>
