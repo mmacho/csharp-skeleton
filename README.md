@@ -1,4 +1,4 @@
-# C# Hexagonal Bootstrap (base / project skeleton)
+# C# Hexagonal ASEME
 
 # Create folders structure:
 1. Create folders into solution
@@ -14,11 +14,3 @@
     * `docker-compose up` TODO
     
 And then going to http://localhost:8030/health-check to check all is ok.
-
-
-Temas pendientes
-- pub/sub message es infra
-- Revisar dónde debe estar pageResult si en Infra
-
-Dudas
-- dónde meter migrations
